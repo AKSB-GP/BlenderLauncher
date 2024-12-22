@@ -29,10 +29,7 @@ class BlenderManager:
             json.dump({"blender_versions":self.versions},file,indent=4)
 
     def add_version(self, folder_path):
-        """
-        Adds a new Blender version to version dict, 
-        by selecting the blender version folder
-        """
+        """Adds a new Blender version by selecting the blender version folder"""
         version_name = os.path.basename(folder_path)
         blender_executable = os.path.join(folder_path, "blender.exe")
 
@@ -55,6 +52,6 @@ class BlenderManager:
         return self.versions.get(version)
 
     def get_all_versions(self):
-        """Returns all versions by keys, I.e versions"""
+        """Returns all versions by keys"""
         return list(self.versions.keys())
     

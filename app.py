@@ -37,7 +37,7 @@ class BlenderLauncherApp:
         self.update_dropdown()
         
     def setup_styles(self):
-        """ Stylesheet for widgets"""
+        """ Styling for widgets"""
         style = ttk.Style()
         style.configure("TButton", font=("Yu Gothic Medium", 14), background='black', foreground="black")
         style.configure("TLabel", font=("Yu Gothic Medium", 14),background='gray',foreground="red")
