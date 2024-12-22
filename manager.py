@@ -22,12 +22,11 @@ class BlenderManager:
                 self.versions = settings.get("blender_versions",{})
         else:
              self.versions = {}   
-
+             
     def save_settings(self):
         '''Save versions to settings json'''
         with open(self.SETTINGS_FILE, "w") as file:
             json.dump({"blender_versions":self.versions},file,indent=4)
-
 
     def add_version(self, folder_path):
         """
