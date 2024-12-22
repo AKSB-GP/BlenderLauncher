@@ -7,19 +7,19 @@ A app using Python Tkinter to manage multiple Blender versions. With this launch
 ## Features
 
 **Select and Launch a Blender Version**  
-  Choose a Blender version from the dropdown menu and launch it directly.
+  - Choose a Blender version from the dropdown menu and launch it directly.
 
 **Open a Version's Folder**  
-  Open the folder of the selected Blender version. 
+  - Open the folder of the selected Blender version. 
 
 **Add a New Version**  
-  Add a new Blender version by selecting its folder. Select a folder named "Blender 4.2" adds it to the launcher.
+  - Add a new Blender version by selecting its folder. Select a folder named "Blender 4.2" adds it to the launcher.
 
 **Remove a Version**  
-  Remove a version from the launcher by selecting a version and pressing the remove button. 
+  - Remove a version from the launcher by selecting a version and pressing the remove button. 
 
 **Download a Version**  
-  -Access Blender's official download page to add a version.
+  - Access Blender's official download page to add a version.
 
 ---
 
